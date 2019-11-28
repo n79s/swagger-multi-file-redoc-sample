@@ -26,8 +26,6 @@ npm run make
 npm run dev
 ```
 
-    "npm-run-all": "^4.1.5",
-    "watch": "^1.0.2"
 ## 作り方
 
 ```
