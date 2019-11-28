@@ -1,0 +1,31 @@
+/pet:
+  $ref: ./pet/pet.yaml
+/pet/findByStatus:
+  $ref: ./pet/pet-findByStatus.yaml
+/pet/findByTags:
+  $ref: ./pet/pet-findByTags.yaml
+/pet/{petId}:
+  $ref: ./pet/pet-petId.yaml
+/pet/{petId}/uploadImage:
+  $ref: ./pet/pet-petId-uploadImage.yaml
+
+/store/inventory:
+  $ref: ./store/store-inventory.yaml
+/store/order:
+  $ref: ./store/store-order.yaml
+/store/order/{orderId}:
+  $ref: ./store/store-order-orderId.yaml
+
+/user:
+  $ref: ./user/user.yaml
+/user/createWithArray:
+  $ref: ./user/user-createWithArray.yaml
+/user/createWithList:
+  $ref: ./user/user-createWithList.yaml
+/user/login:
+  $ref: ./user/user-login.yaml
+/user/logout:
+  $ref: ./user/user-logout.yaml
+/user/{username}:
+  $ref: ./user/user-username.yaml
+
